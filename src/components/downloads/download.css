@@ -1,0 +1,264 @@
+/* .contacts iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.contacts .right {
+  padding: 50px;
+}
+.contacts h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.contacts p {
+  color: grey;
+}
+.contacts .items {
+  margin: 30px 0;
+}
+.contacts .box p {
+  font-size: 17px;
+  margin-top: 10px;
+}
+.contacts textarea,
+.contacts input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  outline: none;
+  border: 1px solid grey;
+}
+form .flexSB input:nth-child(1) {
+  margin-right: 10px;
+}
+.contacts h3 {
+  margin-top: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.contacts span {
+  color: #1eb2a6;
+  font-weight: 600;
+  font-size: 15px;
+  word-spacing: 5px;
+}
+@media screen and (max-width: 768px) {
+  .contacts .container {
+    flex-direction: column;
+  }
+  .contacts iframe {
+    height: 50vh;
+  }
+  .contacts .row {
+    width: 100%;
+  }
+} */
+
+
+
+
+
+/* 
+.downloads {
+  padding: 2rem 0;
+}
+
+.downloads-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.download-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.download-card:hover {
+  transform: translateY(-4px);
+}
+
+.download-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.category-name {
+  font-size: 1.4rem;
+  color: #2d3748;
+  margin: 0;
+}
+
+.syllabus-link {
+  background: #3182ce;
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.syllabus-link:hover {
+  background: #2b6cb0;
+}
+
+.documents-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.document-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9fafb;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+}
+
+.doc-info {
+  flex: 1;
+}
+
+.doc-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 0.2rem;
+}
+
+.doc-meta {
+  font-size: 0.85rem;
+  color: #718096;
+}
+
+.download-btn {
+  background: #38a169;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.download-btn:hover {
+  background: #2f855a;
+}
+
+.loading-text,
+.no-data,
+.no-docs {
+  text-align: center;
+  color: #555;
+  font-size: 1rem;
+} */
+
+
+
+
+.downloads {
+  padding: 40px 0;
+  background: #f9fafc;
+}
+
+.loading-text,
+.no-data {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-top: 40px;
+}
+
+.downloads-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 equal-width columns */
+  gap: 20px; /* spacing between cards */
+  margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+  .downloads-grid {
+    grid-template-columns: repeat(3, 1fr); /* 2 per row on medium screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .downloads-grid {
+    grid-template-columns: 1fr; /* 1 per row on mobile */
+  }
+}
+
+
+.download-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.download-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+.doc-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.doc-subject,
+.doc-type,
+.doc-category {
+  font-size: 14px;
+  color: #666;
+  margin: 6px 0;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 16px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.download-btn:hover {
+  background: #0056b3;
+}
+
+.downloads-title{
+  text-align: center;
+  font-weight: 900;
+  font-size:xx-large;
+  margin-top: -120px;
+}
+
+.subject-filter {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.subject-filter select {
+  padding: 6px 12px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+

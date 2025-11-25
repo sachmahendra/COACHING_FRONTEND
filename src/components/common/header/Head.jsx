@@ -1,13 +1,21 @@
 import React from "react"
+// import logoImg from "../../../../public/images/Concept_crafter.jpeg"
 
 const Head = () => {
   return (
     <>
       <section className='head'>
         <div className='container flexSB'>
+          {/* Logo Image */}
+          <div className="concept_logo">
+            <img src="/images/design3.png" alt="Concept Crafter Academy Logo" />
+          </div>
+
           <div className='logo'>
-            <h1>ACADEMIA</h1>
-            <span>ONLINE EDUCATION & LEARNING</span>
+            <h1>SARATHI</h1>
+            {/* <span>ONLINE EDUCATION & LEARNING</span> */}
+            <h3>THE GUIDING HAND</h3>
+
           </div>
 
           <div className='social'>

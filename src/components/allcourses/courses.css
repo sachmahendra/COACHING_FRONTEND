@@ -23,7 +23,7 @@
   text-align: left;
 }
 .coursesCard .text h1 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   line-height: 45px;
 }
@@ -59,6 +59,14 @@
 .coursesCard h3 {
   font-weight: 500;
   color: #1eb2a6;
+}
+
+.selected-course{
+  text-align: center;
+  font-weight: 900;
+  font-size:xx-large;
+  margin-top: -140px;
+  color: indigo;
 }
 /*-------------online---------*/
 .online {

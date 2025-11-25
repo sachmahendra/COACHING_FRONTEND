@@ -13,7 +13,7 @@ const AboutCard = () => {
             <img src='./images/about.webp' alt='' />
           </div>
           <div className='right row'>
-            <Heading subtitle='LEARN ANYTHING' title='Benefits About Online Learning Expertise' />
+            <Heading subtitle="Your future starts here—let's shape it together!" title='Benefits About CCA Learning Expertise' />
             <div className='items'>
               {homeAbout.map((val) => {
                 return (
@@ -23,7 +23,12 @@ const AboutCard = () => {
                     </div>
                     <div className='text'>
                       <h2>{val.title}</h2>
-                      <p>{val.desc}</p>
+                      {/* <p>{val.desc}</p> */}
+                      <ul>
+                        {val.desc.map((point, index) => (
+                          <li key={index}>{point}</li>
+                        ))}
+                      </ul>
                     </div>
                   </div>
                 )

@@ -25,7 +25,7 @@
   transition: 0.5s;
 }
 .team .details {
-  padding: 30px;
+  padding: 10px;
   text-align: center;
 }
 .team .details h2 {
@@ -53,4 +53,11 @@
 .team .items:hover .overlay i:hover {
   background-color: #1eb2a6;
   color: #fff;
+}
+
+.all-downloads{
+  text-align: center;
+  font-weight: 900;
+  font-size:xx-large;
+  margin-top: -120px;
 }

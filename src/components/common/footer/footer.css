@@ -110,3 +110,15 @@ footer .last i {
 .legal i {
   color: #1eb2a6;
 }
+
+
+.link ul li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.link ul li:hover {
+  color: #1eb2a6;
+  transform: translateX(4px);
+}
+

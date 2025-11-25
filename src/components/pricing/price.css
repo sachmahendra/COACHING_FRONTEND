@@ -16,6 +16,24 @@
   color: grey;
   margin: 40px 0;
 }
+
+@keyframes fadePulse {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+.comingSoon {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ff6600;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  animation: fadePulse 2s infinite ease-in-out;
+}
+
 /*--------------faq-------------*/
 .faq .container {
   max-width: 70%;

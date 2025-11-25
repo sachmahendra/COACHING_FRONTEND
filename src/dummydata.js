@@ -2,21 +2,34 @@ export const homeAbout = [
   {
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-    title: "Online Courses",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "Why Concept Crafter Academy",
+    desc: ["Concept Crafter Academy, located in the heart of Mainpuri, is a leading coaching institute for IIT-JEE, NEET, and Foundation (Class 9–10) exams. Founded to bring Kota-level education to smaller towns, we focus on building strong conceptual understanding over rote learning."],
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-    title: "Earn A Certificates",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "Our Vision & Mission",
+    desc: ["-> To empower students in small towns with quality coaching and mentorship, preparing them to confidently compete in exams like JEE & NEET.",
+            "-> To craft concepts in students' minds using innovative teaching, result-oriented strategies, and regular assessments."
+    ],
   },
+  // {
+  //   id: 1,
+  //   cover: "https://img.icons8.com/ios/80/000000/athlete.png",
+  //   title: "What Makes Us Unique?",
+  //   desc: "Far far away, behind the word mountains,far from the countries Vokalia and Consonantia, there live the blind texts.",
+  // },
+
   {
-    id: 1,
-    cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-    title: "Learn with Expert",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-  },
+  id: 1,
+  cover: "https://img.icons8.com/ios/80/000000/athlete.png",
+  title: "What Makes Us Unique?",
+  desc: [
+    "1. Small batch size for personal attention",
+    "2. IIT/NIT/Medical background teachers",
+    "3. Weekly Doubt Solving + Parent Feedback Sessions"
+  ],
+}
 ]
 export const awrapper = [
   {
@@ -45,77 +58,77 @@ export const coursesCard = [
   {
     id: 1,
     cover: "../images/courses/c1.png",
-    coursesName: "Introducing to Software Engineering",
+    coursesName: "IIT JEE COURSES",
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by John Smith",
-        totalTime: "50 lectures (190 hrs)",
+        name: "With Best Teachers",
+        totalTime: "Complete Course with reguler test",
       },
     ],
-    priceAll: "$100 All Course",
-    pricePer: "$15 per month",
+    priceAll: "To Explore More",
+    pricePer: "Click Below Button",
   },
   {
     id: 2,
     cover: "../images/courses/c2.png",
-    coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
+    coursesName: "OUR NEET COURSES",
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Ram Gurung",
-        totalTime: "30 lectures (125 hrs)",
+        name: "With Best Teachers",
+        totalTime: "Complete Course with reguler test",
       },
     ],
-    priceAll: "$200 All Course",
-    pricePer: "$25 per month",
+    priceAll: "To Explore More",
+    pricePer: "Click Below Button",
   },
   {
     id: 3,
     cover: "../images/courses/c3.png",
-    coursesName: "HTML, CSS, and Javascript for Web Developers",
+    coursesName: "OLYMPIAD COURSES",
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Saroj Nepal",
-        totalTime: "50 lectures (50 hrs)",
+        name: "With Best Teachers",
+        totalTime: "Complete Course with reguler test",
       },
     ],
-    priceAll: "$50 All Course",
-    pricePer: "$5 per month",
+    priceAll: "To Explore More",
+    pricePer: "Click Below Button",
   },
   {
     id: 4,
     cover: "../images/courses/c4.png",
-    coursesName: "Introducing to Programming with WordPress",
+    coursesName: "CBSE 9 To 12",
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Prabin Thapa Mager",
-        totalTime: "20 lectures (20 hrs)",
+        name: "With Best Teachers",
+        totalTime: "Complete Course with reguler test",
       },
     ],
-    priceAll: "$30 All Course",
-    pricePer: "$3 per month",
+    priceAll: "To Explore More",
+    pricePer: "Click Below Button",
   },
   {
     id: 5,
     cover: "../images/courses/c5.png",
-    coursesName: "Introducing to Programming with ReactJS",
+    coursesName: "Foundation Classes",
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Sunil Bishowkaram",
-        totalTime: "100 lectures (150 hrs)",
+        name: "With Best Teachers",
+        totalTime: "Complete Course with reguler test",
       },
     ],
-    priceAll: "$300 All Course",
-    pricePer: "$30 per month",
+    priceAll: "To Explore More",
+    pricePer: "Click Below Button",
   },
   {
     id: 6,
     cover: "../images/courses/c6.png",
-    coursesName: "Learn Frontend Programming Language",
+    coursesName: "ABCD",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -123,8 +136,8 @@ export const coursesCard = [
         totalTime: "200 lectures (300 hrs)",
       },
     ],
-    priceAll: "$500 All Course",
-    pricePer: "$80 per month",
+    priceAll: "To Explore More",
+    pricePer: "Click Below Button",
   },
   {
     id: 7,
@@ -245,43 +258,43 @@ export const online = [
 ]
 export const team = [
   {
-    cover: "./images/team/t1.webp",
-    name: "Ph.D Adrian Molises",
+    cover: "./images/team/jee.jpg",
+    name: "Class 11 with JEE Coaching",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "./images/team/t2.webp",
-    name: "Ph.D Arthur MaGregor",
+    cover: "./images/team/jee.jpg",
+    name: "Class 12 with JEE Coaching",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "./images/team/t3.webp",
-    name: "Ph.D Anna Hanzen",
+    cover: "./images/team/jee.jpg",
+    name: "12+ JEE COACHING",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "./images/team/t4.webp",
-    name: "Ph.D Brian Wooden",
+    cover: "./images/team/Doct2.jpg",
+    name: "Class 11 with NEET Coaching",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "./images/team/t5.webp",
-    name: "Ph.D Adrian Molises",
+    cover: "./images/team/Doct2.jpg",
+    name: "Class 12 with NEET Coaching",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "./images/team/t6.webp",
-    name: "Ph.D Arthur MaGregor",
+    cover: "./images/team/Doct2.jpg",
+    name: "12+ NEET COACHING",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "./images/team/t7.webp",
-    name: "Ph.D Anna Hanzen",
+    cover: "./images/team/olympiad.jfif",
+    name: "OLYMPIAD COACHING",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "./images/team/t8.webp",
-    name: "Ph.D Brian Wooden",
+    cover: "./images/team/img3.webp",
+    name: "CBSE 9th TO 12th SYLLABUS",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
 ]

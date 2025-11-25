@@ -1,0 +1,6 @@
+1) for signup/login
+- first open only enter mobile number field - then verify otp - then open other fields as target Course,
+ Class, Name - email - signup completed - land to dashboard page 
+
+2) with the above steps signup and login completed as of now,
+3) when user visit again then for login only ask to enter mobile number and verify with otp and loggedin.

@@ -8,14 +8,14 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <div className='row'>
-            <Heading subtitle='WELCOME TO ACADEMIA' title='Best Online Education Expertise' />
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <Heading subtitle='WELCOME TO SARATHI- THE GUIDING HAND' title="Crack IIT-JEE & NEET with India's Finest Mentors in Mainpuri" />
+            <p>Join SARATHI - THE GUIDING HAND - Where Concepts Are Crafted, Not Just Taught.</p>
             <div className='button'>
               <button className='primary-btn'>
-                GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
+              CONCEPT-DRIVEN <i className='fa fa-long-arrow-alt-right'></i>
               </button>
               <button>
-                VIEW COURSE <i className='fa fa-long-arrow-alt-right'></i>
+               RESULTS-ORIENTED <i className='fa fa-long-arrow-alt-right'></i>
               </button>
             </div>
           </div>
