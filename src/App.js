@@ -25,6 +25,7 @@ function App() {
     <>
       <Router>
         <Header />
+        {/* <div className="site-top-spacer" /> */}
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />

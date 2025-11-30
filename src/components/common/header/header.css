@@ -1,170 +1,239 @@
-/*--------head------------*/
+/* ---------- HEADER / TOP BAR ---------- */
+
+/* container used site-wide - keep as used elsewhere */
 .head {
-  padding: 20px 0;
-  color: #fff;
+  padding: 12px 0;
+  background: transparent;
+}
+
+/* use flex to align: left group (logo+title), center (spacer), right (social + login) */
+.head .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* left-group | right-group */
+  gap: 16px;
+  width: 100%;
+  padding: 0 12px;
+}
+
+/* Left group (logo + text) - keep them together */
+.head .left-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* logo image */
+/* Circle container */
+.concept_logo {
+  width: 80px;       /* fixed circle width */
+  height: 80px;      /* fixed circle height */
+  border-radius: 50%;
+  background: rgba(255,255,255,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;      /* ensure nothing spills outside */
+  border: 2px solid #ffffff66;
+  padding: 0;            /* keep circle tight */
+}
+
+/* Image inside the circle – smaller than circle */
+.concept_logo img {
+  width: 65px;       /* reduce image size */
+  height: auto;      /* maintain original proportions */
+  object-fit: contain;  /* NO cropping */
+  display: block;
+}
+
+
+
+/* site title block next to logo */
+.logo {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
 }
 .logo h1 {
-  font-size: 35px;
-  font-weight: 900;
-  margin-left: -410px;
-  color: black;
+  font-size: 26px;
+  margin: 0;
+  color: #000;
+  font-weight: 800;
 }
-
 .logo h3 {
-  font-size: 18px;
+  font-size: 13px;
+  margin: 0;
+  color: #222;
   font-weight: 600;
-  margin-left: -390px;
-  color: initial;
-}
-.head .icon {
-  margin-left: 10px;
+  letter-spacing: 0.2px;
 }
 
-.concept_logo img {
-  width: 80px;   /* adjust size */
-  height: 80PX;
-  margin-right: 0px;
-  margin-left: -60px;
-  border-radius: 2px;
+/* social icons group */
+.head .social {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
-
-/*--------head------------*/
-/*--------header------------*/
-header {
-  background-color: rgba(255, 255, 255, 0.2);
-  margin: 0 30px;
-}
-header .nav {
-  display: flex !important;
-}
-header li {
-  margin-right: 40px;
-}
-header ul {
-  padding: 30px 20px;
-}
-header ul li a {
-  color: #fff;
-  font-weight: 500;
-  transition: 0.5s;
-}
-header ul li a:hover {
+.head .social .icon {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 50%;
+  text-align: center;
+  background: rgba(255,255,255,0.6);
   color: #1eb2a6;
 }
-/* .start {
-  /* background-color: #1eb2a6; 
-  background: linear-gradient(135deg, #56ab2f, #a8e063);
-  padding: 30px 70px;
-  color: #fff;
-  clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
-} */
 
+/* NAV BAR styles: keep nav below header area to avoid overlap */
+header {
+  background: rgba(255,255,255,0.18);
+  width: 100%;
+  position: relative;
+  z-index: 50;
+  padding: 8px 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* nav container inner (space between links and start button) */
+header nav.flexSB {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+/* main links */
+header ul.flexSB {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 8px 12px;
+  margin: 0;
+}
+header ul.flexSB li { list-style: none; }
+header ul.flexSB li a {
+  color: #fff;
+  font-weight: 600;
+  padding: 8px 6px;
+}
+header ul.flexSB li a:hover { color: #1eb2a6; }
+
+/* Start (login/signup) - keep to the right and visible */
 .start {
   background: linear-gradient(135deg, #b21e1e, #2b7de9);
   color: #fff;
-  padding: 20px 40px;
+  padding: 10px 18px;
   border-radius: 12px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
-  display: inline-block;
-  clip-path: none; /* remove if you don’t need the polygon shape */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
 
-.start:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-}
-
-.start a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 600;
-  font-size: 1rem;
-}
-
-
+/* hamburger toggle (mobile) - default hidden on desktop */
 .toggle {
   display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 26px;
+  cursor: pointer;
 }
 
-/* Dropdown Styles */
-.dropdown {
-  position: relative;
-}
-
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: black;
-  list-style: none;
-  padding: 10px 0;
-  margin: 0;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  min-width: 180px;
-  z-index: 1000;
-}
-
-.dropdown-menu li {
-  padding: 8px 15px;
-}
-
-.dropdown-menu li:hover {
-  background: floralwhite;
-}
-
+/* Dropdown menus (desktop) */
+.dropdown { position: relative; }
+.dropdown-menu,
 .downloadDropdown-menu {
   position: absolute;
   top: 100%;
   left: 0;
-  background: black;
+  background:#1eb2a6;
+  color: #111;
   list-style: none;
-  padding: 10px 0;
-  margin: 0;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  padding: 8px 0;
+  margin: 6px 0;
+  border-radius: 6px;
   min-width: 180px;
-  z-index: 1000;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  z-index: 120;
 }
-
+.dropdown-menu li,
 .downloadDropdown-menu li {
-  padding: 8px 15px;
+  padding: 8px 12px;
 }
-.downloadDropdown-menu li:hover {
-  background: floralwhite;
-}
+.dropdown-menu li:hover,
+.downloadDropdown-menu li:hover { background:#f2f6f6; }
 
-/*--------header------------*/
-@media screen and (max-width: 768px) {
-  .start {
-    clip-path: none;
-  }
-  header {
-    margin: 0;
-    background-color: #1eb2a6;
-    position: relative;
-  }
-  header ul.flexSB {
-    display: none;
-  }
-  header ul li {
-    margin-bottom: 20px;
-  }
-  .toggle {
-    display: block;
-    background: none;
-    color: #fff;
-    font-size: 30px;
-    position: absolute;
-    right: 0;
-    top: -20px;
-  }
+/* ---------- RESPONSIVE (mobile) ---------- */
+@media screen and (max-width: 900px) {
+  /* make header compact */
+  .head .container { padding: 8px 12px; gap:8px; }
+
+  /* left group: logo + text reduced */
+  .concept_logo img { width: 60px; height: 60px; }
+  .logo h1 { font-size: 20px; }
+  .logo h3 { font-size: 12px; }
+
+  /* nav: hide desktop links, show toggle */
+  header ul.flexSB { display: none; }
+  .toggle { display: block; margin-left: 140px;}
+
+  /* mobile nav when active uses .mobile-nav class (existing code) */
   .mobile-nav {
     position: absolute;
-    top: 7vh;
+    top: 64px;           /* below header area */
     left: 0;
     width: 100%;
-    background-color: #1eb2a6;
+    background: #1eb2a6;
+    padding: 16px 0;
+    z-index: 200;
   }
+  .mobile-nav li {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-align: left;
+  }
+
+  /* ensure start button visible inside header row on mobile */
+  .start { margin-left: 8px; padding: 8px 12px; font-size: 14px; }
+}
+
+/* ---------- small-screen fine-tuning ---------- */
+@media screen and (max-width: 480px) {
+  .concept_logo img { width: 56px; height: 56px; }
+  .logo h1 { font-size: 18px; }
+  .logo h3 { font-size: 11px; }
+  .start { padding: 8px 10px; font-size: 13px; }
+}
+
+/* Shift logo + heading slightly left on laptop/desktop */
+@media screen and (min-width: 901px) {
+  .head .container {
+    padding-left: 0px !important;   /* earlier it was 12px */
+  }
+
+  .left-group {
+    margin-left: -50px;  /* fine tune: shift 5–20px as you like */
+  }
+}
+
+
+/* ---- Arrow under SARATHI ---- */
+.progress-arrow {
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 1px;
+  color: #1eb2a6;  /* matches theme */
+  letter-spacing: 2px;
+}
+
+/* tagline spacing */
+.logo h3 {
+  font-size: 13px;
+  margin-top: 2px;
+  color: #222;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }

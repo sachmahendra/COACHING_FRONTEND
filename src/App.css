@@ -161,3 +161,78 @@ p {
     height: 80vh;
   }
 }
+
+
+
+
+/* ================== MOBILE FIXES (IMPORTANT) ================== */
+@media screen and (max-width: 768px) {
+
+  /* Make container full width */
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  /* Fix row width (50% causes layout break) */
+  .row {
+    width: 100% !important;
+  }
+
+  /* 2 column layout for mid-sized mobile */
+  .grid,
+  .grid2,
+  .grid3 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+
+  /* Hero section fix */
+  .back {
+    height: auto;
+    padding-top: 60%;
+    padding-right: 0;
+    background-position: center;
+  }
+
+  /* Reduce large headings */
+  .back h1 {
+    font-size: 40px;
+  }
+}
+
+/* For small phones <450px */
+@media screen and (max-width: 450px) {
+  .grid,
+  .grid2,
+  .grid3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .back h1 {
+    font-size: 28px;
+  }
+
+  button {
+    width: 100%;
+    margin: 15px 0;
+  }
+}
+
+/* Make all images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Fix overflowing sections */
+.section,
+.box,
+.card {
+  width: 100%;
+}
+
+/* ensure main page content starts below header on all screens */
+/* .site-top-spacer { height: 110px; } 
+@media screen and (max-width: 900px) { .site-top-spacer { height: 80px; } }
+@media screen and (max-width: 480px) { .site-top-spacer { height: 72px; } } */

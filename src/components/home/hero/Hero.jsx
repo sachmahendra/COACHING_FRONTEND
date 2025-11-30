@@ -10,14 +10,14 @@ const Hero = () => {
           <div className='row'>
             <Heading subtitle='WELCOME TO SARATHI- THE GUIDING HAND' title="Crack IIT-JEE & NEET with India's Finest Mentors in Mainpuri" />
             <p>Join SARATHI - THE GUIDING HAND - Where Concepts Are Crafted, Not Just Taught.</p>
-            <div className='button'>
+            {/* <div className='button'>
               <button className='primary-btn'>
               CONCEPT-DRIVEN <i className='fa fa-long-arrow-alt-right'></i>
               </button>
               <button>
                RESULTS-ORIENTED <i className='fa fa-long-arrow-alt-right'></i>
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
