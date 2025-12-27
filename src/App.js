@@ -34,7 +34,7 @@ function App() {
           <Route exact path='/courses/olympiad' component={olympiadHome} />
           <Route exact path='/courses/CBSE' component={CbseHome} />
           <Route exact path='/courses/foundation' component={FoundationHome} />
-          <Route exact path='/team' component={Team} />
+          <Route exact path='/downloads' component={Team} />
           <Route exact path='/pricing' component={Pricing} />
           <Route exact path='/journal' component={Blog} />
           <Route exact path='/contact' component={Contact} />

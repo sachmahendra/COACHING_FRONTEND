@@ -169,22 +169,24 @@ const NeetCard = () => {
                 </div>
               </div>
               <div className="text">
-                <h1>{course.title}</h1>
-                <p>{course.description}</p>
-                <div className="rate">
+                <h2>{course.title}</h2>
+                <h5>{course.description}</h5>
+                {/* <div className="rate">
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <label>(5.0)</label>
-                </div>
+                </div> */}
                 <div className="details">
                   <div className="box">
                     <div className="para">
-                      <h4>Teacher: {course.teacher}</h4>
+                      {/* <h4>Teacher: {course.teacher}</h4> */}
+                      <h4>• Covers mains & Advanced syllabus</h4>
+                      <h4>• Integrated with board preparations</h4>
                     </div>
-                    <span> ( {course.duration} ) hrs</span>
+                    {/* <span> ( {course.duration} ) hrs</span> */}
                   </div>
                 </div>
               </div>

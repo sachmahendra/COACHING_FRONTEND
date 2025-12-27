@@ -10,20 +10,27 @@ const Head = () => {
             <div className="concept_logo">
               <img src="/images/design3.png" alt="Concept Crafter Academy Logo" />
             </div>
-            <div className='logo'>
+            {/* <div className='logo'>
+              <h1>SARATHI</h1>
+              <div className="progress-arrow">→</div>
+              <h3>THE GUIDING HAND</h3>
+            </div> */}
+
+            <div className="logo">
               <h1>SARATHI</h1>
 
-              {/* Arrow indicating progress */}
-              <div className="progress-arrow">→</div>
-
-              {/* Tagline */}
-              <h3>THE GUIDING HAND</h3>
+              {/* Arrow + Tagline row */}
+              <div className="arrow-tagline">
+                <span className="progress-arrow">→</span>
+                <h3>THE GUIDING HAND</h3>
+              </div>
             </div>
+
           </div>
           <div className='social'>
             <i className='fab fa-facebook-f icon'></i>
             <i className='fab fa-instagram icon'></i>
-            <i className='fab fa-twitter icon'></i>
+            {/* <i className='fab fa-twitter icon'></i> */}
             <i className='fab fa-youtube icon'></i>
           </div>
         </div>

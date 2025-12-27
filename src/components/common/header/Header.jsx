@@ -121,14 +121,14 @@ const Header = () => {
               }}
               onMouseLeave={() => setDownloadsDropdown(false)}
             >
-              <Link to="/team">All Downloads ▾</Link>
+              <Link to="/downloads">All Downloads ▾</Link>
               {downloadsDropdown && (
                 <ul className="downloadDropdown-menu">
                   <li>
-                    <Link to="/team">ALL PYQ</Link>
+                    <Link to="/downloads">ALL PYQ</Link>
                   </li>
                   <li>
-                    <Link to="/team/others">Others</Link>
+                    <Link to="/downloads/others">Others</Link>
                   </li>
                 </ul>
               )}

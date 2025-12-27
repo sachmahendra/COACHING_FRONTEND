@@ -125,7 +125,7 @@ const HAbout = () => {
                           <React.Fragment key={i}>
                             <div className="box">
                               <div className="dimg">
-                                <img src={details.dcover} alt={details.name} />
+                                {/* <img src={details.dcover} alt={details.name} /> */}
                               </div>
                               <div className="para">
                                 <h4>{details.name}</h4>

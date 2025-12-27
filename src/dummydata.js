@@ -2,8 +2,8 @@ export const homeAbout = [
   {
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-    title: "Why Concept Crafter Academy",
-    desc: ["Concept Crafter Academy, located in the heart of Mainpuri, is a leading coaching institute for IIT-JEE, NEET, and Foundation (Class 9–10) exams. Founded to bring Kota-level education to smaller towns, we focus on building strong conceptual understanding over rote learning."],
+    title: "Why Sarathi - The Guiding Hand",
+    desc: ["Sarathi, located in the heart of Mainpuri, is a leading coaching institute for IIT-JEE, NEET, and Foundation (Class 9–10) exams. Founded to bring Kota-level education to smaller towns, we focus on building strong conceptual understanding over rote learning."],
   },
   {
     id: 1,
@@ -34,23 +34,23 @@ export const homeAbout = [
 export const awrapper = [
   {
     cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
-    data: "3,000",
+    data: "Many",
     title: "SUCCESS STORIES",
   },
 
   {
     cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
-    data: "320",
+    data: "Experienced",
     title: "TRUSTED TUTORS",
   },
   {
     cover: "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
-    data: "1,000",
+    data: "Flexible",
     title: "SCHEDULES",
   },
   {
     cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
-    data: "587",
+    data: "Multiple",
     title: "COURSES",
   },
 ]
@@ -61,7 +61,7 @@ export const coursesCard = [
     coursesName: "IIT JEE COURSES",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
+        // dcover: "./images/back.webp",
         name: "With Best Teachers",
         totalTime: "Complete Course with reguler test",
       },
@@ -260,42 +260,42 @@ export const team = [
   {
     cover: "./images/team/jee.jpg",
     name: "Class 11 with JEE Coaching",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    // work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: "./images/team/jee.jpg",
     name: "Class 12 with JEE Coaching",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    // work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: "./images/team/jee.jpg",
     name: "12+ JEE COACHING",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    // work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: "./images/team/Doct2.jpg",
     name: "Class 11 with NEET Coaching",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    // work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: "./images/team/Doct2.jpg",
     name: "Class 12 with NEET Coaching",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    // work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: "./images/team/Doct2.jpg",
     name: "12+ NEET COACHING",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    // work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: "./images/team/olympiad.jfif",
     name: "OLYMPIAD COACHING",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    // work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: "./images/team/img3.webp",
     name: "CBSE 9th TO 12th SYLLABUS",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    // work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
 ]
 export const price = [
@@ -372,7 +372,7 @@ export const blog = [
     com: "10 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b3.webp",
+    cover: "../images/blog/coach_blg.jpg",
   },
   {
     id: 4,

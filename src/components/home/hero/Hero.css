@@ -1,5 +1,5 @@
 .hero {
-  background-image: url("../../../../public/images/bg.webp");
+  background-image: url("../../../../public/images/Web_Photo_Editor1.jpg");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -10,16 +10,17 @@
   height: 100vh;
   padding-top: 20%;
   padding-right: 50px;
-  color: #fff;
+  color: black;
 }
 .hero #heading h3 {
-  color: #fff;
+  color: black;
   margin-bottom: -10px;
 }
 .hero #heading {
   text-align: left;
   margin: 0;
   padding: 0;
+  color: black;
 }
 @media screen and (max-width: 768px) {
   .margin {

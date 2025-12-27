@@ -160,13 +160,13 @@ const Footer = () => {
         <div className="container padding">
           {/* ========= Left Logo Section ========= */}
           <div className="box logo">
-            <h2>ACADEMIA</h2>
-            <span>BEST EDUCATION & LEARNING</span>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <h2>SARATHI</h2>
+            <span>THE GUIDING HAND</span>
+            <p>Helping you grow with purpose, direction, and confidence.</p>
 
             <i className="fab fa-facebook-f icon"></i>
-            <i className="fab fa-twitter icon"></i>
             <i className="fab fa-instagram icon"></i>
+            <i className='fab fa-youtube icon'></i>
           </div>
 
           {/* ========= Explore Section ========= */}
